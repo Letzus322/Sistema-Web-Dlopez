@@ -1,0 +1,34 @@
+.navbar .container-fluid .nav-link:hover {
+    margin: 1px;
+    background: #585858;
+    border-radius: 80px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+
+  }  
+
+  .navbar .container-fluid .nav-link {
+    margin: 1px;
+    background: none;
+    border-radius: 80px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+  }  
+
+
+  .map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container iframe{
+    padding: 2%;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
